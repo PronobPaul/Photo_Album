@@ -1,0 +1,45 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    width: 500px;
+    margin-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    border: 5px groove ;
+}
+.photo_fame{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: gold;
+    border: 10px solid gold;
+    border-radius: 10px;
+    position: relative;
+}
+   
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.photo_details{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    display: none;
+    transition:1s;
+    text-align: center;
+}
+.photo_fame:hover .photo_details{
+    display: block;
+    background-color: rgba(218, 165, 32, 0.8);
+    border-radius: 5px;
+        
+}
+
+    
